@@ -1,0 +1,57 @@
+[2025-09-02T07:39:08.460+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-09-02T07:39:08.521+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_data_rekapitulasi.clean_data manual__2025-09-02T07:38:53.702175+00:00 [queued]>
+[2025-09-02T07:39:08.548+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_data_rekapitulasi.clean_data manual__2025-09-02T07:38:53.702175+00:00 [queued]>
+[2025-09-02T07:39:08.549+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-09-02T07:39:08.587+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): clean_data> on 2025-09-02 07:38:53.702175+00:00
+[2025-09-02T07:39:08.607+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=498) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-09-02T07:39:08.610+0000] {standard_task_runner.py:63} INFO - Started process 500 to run task
+[2025-09-02T07:39:08.611+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'pipeline_data_rekapitulasi', 'clean_data', 'manual__2025-09-02T07:38:53.702175+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_rekapitulasi.py', '--cfg-path', '/tmp/tmpqbcdcl8o']
+[2025-09-02T07:39:08.612+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask clean_data
+[2025-09-02T07:39:08.717+0000] {task_command.py:426} INFO - Running <TaskInstance: pipeline_data_rekapitulasi.clean_data manual__2025-09-02T07:38:53.702175+00:00 [running]> on host 231ead08851d
+[2025-09-02T07:39:08.909+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pipeline_data_rekapitulasi' AIRFLOW_CTX_TASK_ID='clean_data' AIRFLOW_CTX_EXECUTION_DATE='2025-09-02T07:38:53.702175+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-02T07:38:53.702175+00:00'
+[2025-09-02T07:39:08.915+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-09-02T07:39:09.607+0000] {warnings.py:112} WARNING - /opt/***/dags/pipeline_rekapitulasi.py:39: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+
+[2025-09-02T07:39:09.648+0000] {logging_mixin.py:188} INFO - data final: 31 baris, 16 kolom
+[2025-09-02T07:39:09.650+0000] {python.py:237} INFO - Done. Returned value was:     no     tanggal  ... telur_ayam_ras gula_konsumsi_di_petani_pabrik_gula
+0    1  2025-08-01  ...          24808                               14550
+1    2  2025-08-02  ...          24633                               14550
+2    3  2025-08-03  ...          25056                               14550
+3    4  2025-08-04  ...          24792                               14550
+4    5  2025-08-05  ...          24818                               14550
+5    6  2025-08-06  ...          24809                               14550
+6    7  2025-08-07  ...          24633                               14550
+7    8  2025-08-08  ...          24725                               14550
+8    9  2025-08-09  ...          24827                               14550
+9   10  2025-08-10  ...          24725                               14550
+10  11  2025-08-11  ...          24650                               14550
+11  12  2025-08-12  ...          24544                               14550
+12  13  2025-08-13  ...          24483                               14550
+13  14  2025-08-14  ...          24400                               14550
+14  15  2025-08-15  ...          24133                               14550
+15  16  2025-08-16  ...          24225                               14550
+16  17  2025-08-17  ...          24258                               14550
+17  18  2025-08-18  ...          24200                               14550
+18  19  2025-08-19  ...          23967                               14555
+19  20  2025-08-20  ...          23960                               14550
+20  21  2025-08-21  ...          24008                               14550
+21  22  2025-08-22  ...          23967                               14550
+22  23  2025-08-23  ...          24017                               14550
+23  24  2025-08-24  ...          24025                               14550
+24  25  2025-08-25  ...          23992                               14555
+25  26  2025-08-26  ...          23945                               14550
+26  27  2025-08-27  ...          23767                               14550
+27  28  2025-08-28  ...          23936                               14550
+28  29  2025-08-29  ...          24211                                   0
+29  30  2025-08-30  ...          23633                               14550
+30  31  2025-08-31  ...          23730                               14550
+
+[31 rows x 16 columns]
+[2025-09-02T07:39:09.769+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-09-02T07:39:10.027+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=pipeline_data_rekapitulasi, task_id=clean_data, run_id=manual__2025-09-02T07:38:53.702175+00:00, execution_date=20250902T073853, start_date=20250902T073908, end_date=20250902T073910
+[2025-09-02T07:39:10.114+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-09-02T07:39:10.179+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-09-02T07:39:10.184+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

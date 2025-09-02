@@ -1,0 +1,172 @@
+[2025-09-02T07:37:49.139+0000] {processor.py:161} INFO - Started process (PID=4065) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:37:49.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:37:49.144+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:37:49.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:37:49.874+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:37:50.461+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:37:50.460+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:pipeline_data_rekapitulasi
+[2025-09-02T07:37:50.485+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:37:50.484+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:pipeline_data_rekapitulasi
+[2025-09-02T07:37:50.507+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:37:50.506+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:pipeline_data_rekapitulasi
+[2025-09-02T07:37:50.509+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:37:50.508+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:37:50.541+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:37:50.539+0000] {dag.py:3118} INFO - Creating ORM DAG for pipeline_data_rekapitulasi
+[2025-09-02T07:37:50.563+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:37:50.563+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:37:50.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.481 seconds
+[2025-09-02T07:38:20.886+0000] {processor.py:161} INFO - Started process (PID=4126) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:38:20.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:38:20.893+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:38:20.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:38:21.568+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:38:21.616+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:38:21.616+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:38:21.955+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:38:21.955+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:38:22.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.129 seconds
+[2025-09-02T07:38:52.625+0000] {processor.py:161} INFO - Started process (PID=4186) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:38:52.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:38:52.632+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:38:52.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:38:53.252+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:38:53.291+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:38:53.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:38:53.332+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:38:53.331+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:38:53.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.084 seconds
+[2025-09-02T07:39:23.843+0000] {processor.py:161} INFO - Started process (PID=4250) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:39:23.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:39:23.849+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:39:23.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:39:24.491+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:39:24.549+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:39:24.548+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:39:24.589+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:39:24.588+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:39:24.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.071 seconds
+[2025-09-02T07:39:55.453+0000] {processor.py:161} INFO - Started process (PID=4314) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:39:55.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:39:55.459+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:39:55.459+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:39:56.323+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:39:56.357+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:39:56.356+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:39:56.396+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:39:56.395+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:39:56.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.004 seconds
+[2025-09-02T07:40:27.081+0000] {processor.py:161} INFO - Started process (PID=4374) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:40:27.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:40:27.088+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:40:27.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:40:28.016+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:40:28.063+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:40:28.062+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:40:28.101+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:40:28.100+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:40:28.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.068 seconds
+[2025-09-02T07:40:58.350+0000] {processor.py:161} INFO - Started process (PID=4434) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:40:58.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:40:58.356+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:40:58.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:40:59.363+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:40:59.398+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:40:59.397+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:40:59.450+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:40:59.449+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:40:59.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.168 seconds
+[2025-09-02T07:41:30.012+0000] {processor.py:161} INFO - Started process (PID=4494) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:41:30.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:41:30.022+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:41:30.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:41:31.250+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:41:31.305+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:41:31.304+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:41:31.358+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:41:31.357+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:41:31.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.404 seconds
+[2025-09-02T07:42:01.561+0000] {processor.py:161} INFO - Started process (PID=4554) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:42:01.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:42:01.568+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:42:01.567+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:42:02.559+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:42:02.615+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:42:02.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:42:02.680+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:42:02.680+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:42:02.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.179 seconds
+[2025-09-02T07:42:33.026+0000] {processor.py:161} INFO - Started process (PID=4614) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:42:33.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:42:33.038+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:42:33.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:42:34.071+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:42:34.111+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:42:34.110+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:42:34.154+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:42:34.154+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:42:34.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.199 seconds
+[2025-09-02T07:43:04.678+0000] {processor.py:161} INFO - Started process (PID=4675) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:43:04.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:43:04.685+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:43:04.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:43:05.600+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:43:05.654+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:43:05.653+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:43:05.715+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:43:05.715+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:43:05.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.102 seconds
+[2025-09-02T07:43:36.242+0000] {processor.py:161} INFO - Started process (PID=4735) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:43:36.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:43:36.249+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:43:36.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:43:37.332+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:43:37.365+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:43:37.364+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:43:37.396+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:43:37.395+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:43:37.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.199 seconds
+[2025-09-02T07:44:08.366+0000] {processor.py:161} INFO - Started process (PID=4795) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:44:08.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:44:08.372+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:44:08.371+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:44:09.530+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:44:09.567+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:44:09.566+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:44:09.602+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:44:09.602+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:44:09.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.287 seconds
+[2025-09-02T07:44:40.113+0000] {processor.py:161} INFO - Started process (PID=4856) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:44:40.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:44:40.124+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:44:40.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:44:41.352+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:44:41.396+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:44:41.396+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:44:41.436+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:44:41.436+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:44:41.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.389 seconds
+[2025-09-02T07:45:12.526+0000] {processor.py:161} INFO - Started process (PID=4917) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:45:12.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:45:12.553+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:45:12.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:45:14.029+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:45:14.118+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:45:14.117+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:45:14.161+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:45:14.160+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:45:14.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.703 seconds
+[2025-09-02T07:45:44.584+0000] {processor.py:161} INFO - Started process (PID=4980) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:45:44.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:45:44.597+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:45:44.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:45:45.887+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:45:45.933+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:45:45.931+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:45:45.995+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:45:45.995+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:45:46.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.518 seconds
+[2025-09-02T07:46:16.933+0000] {processor.py:161} INFO - Started process (PID=5048) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:46:16.935+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:46:16.940+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:46:16.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:46:17.887+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:46:17.932+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:46:17.931+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:46:17.972+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:46:17.971+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:46:18.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.090 seconds
+[2025-09-02T07:46:48.375+0000] {processor.py:161} INFO - Started process (PID=5112) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:46:48.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:46:48.380+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:46:48.380+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:46:49.337+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:46:49.375+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:46:49.374+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:46:49.407+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:46:49.406+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:46:49.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.078 seconds
+[2025-09-02T07:47:19.856+0000] {processor.py:161} INFO - Started process (PID=5173) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:47:19.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:47:19.862+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:47:19.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:47:20.813+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:47:20.852+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:47:20.851+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:47:20.891+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:47:20.891+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:47:20.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.085 seconds
+[2025-09-02T07:47:51.472+0000] {processor.py:161} INFO - Started process (PID=5237) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:47:51.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:47:51.480+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:47:51.479+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:47:52.479+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:47:52.517+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:47:52.517+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:47:52.549+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:47:52.549+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:47:52.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.131 seconds
+[2025-09-02T07:48:23.261+0000] {processor.py:161} INFO - Started process (PID=5299) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:48:23.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:48:23.267+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:48:23.266+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:48:24.134+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:48:24.174+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:48:24.173+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:48:24.226+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:48:24.225+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:48:24.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.032 seconds
+[2025-09-02T07:48:55.312+0000] {processor.py:161} INFO - Started process (PID=5361) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:48:55.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:48:55.318+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:48:55.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:48:56.193+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:48:56.229+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:48:56.228+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:48:56.272+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:48:56.271+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:48:56.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.007 seconds
+[2025-09-02T07:49:26.697+0000] {processor.py:161} INFO - Started process (PID=5421) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:49:26.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:49:26.703+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:49:26.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:49:27.786+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:49:27.827+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:49:27.826+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:49:27.868+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:49:27.867+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:49:27.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.219 seconds
+[2025-09-02T07:49:58.271+0000] {processor.py:161} INFO - Started process (PID=5481) to work on /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:49:58.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_rekapitulasi.py for tasks to queue
+[2025-09-02T07:49:58.281+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:49:58.279+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:49:59.297+0000] {processor.py:840} INFO - DAG(s) 'pipeline_data_rekapitulasi' retrieved from /opt/airflow/dags/pipeline_rekapitulasi.py
+[2025-09-02T07:49:59.339+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:49:59.338+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-09-02T07:49:59.381+0000] {logging_mixin.py:188} INFO - [2025-09-02T07:49:59.381+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_data_rekapitulasi to 2025-09-02 00:00:00+00:00, run_after=2025-09-03 00:00:00+00:00
+[2025-09-02T07:49:59.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_rekapitulasi.py took 1.161 seconds
